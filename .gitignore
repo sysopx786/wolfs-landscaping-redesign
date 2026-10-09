@@ -1,0 +1,9 @@
+.DS_Store
+Thumbs.db
+*.log
+raw/
+HANDOVER-PRIVATE.md
+research-*.md
+MWDS-GAP-REPORT.md
+tests/
+tests$n.png

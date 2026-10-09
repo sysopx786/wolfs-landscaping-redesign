@@ -1,0 +1,103 @@
+{
+  "_note": "Customer reviews shown on the Reviews page, copied from the business's public Google listing on 2026-10-05 (pasted by the owner). Reviewer names are shown as first name + last initial. To add a review, add an entry here and run: python tools/build.py. 'url' is the review's own Google share link (optional). 'featured' reviews also appear on the home page ('excerpt' overrides the text there). A review with empty text is a star rating only.",
+  "meta": {
+    "retrieved": "2026-10-05",
+    "rating": "5.0",
+    "count": 14
+  },
+  "reviews": [
+    {
+      "reviewer": "Arturo V.",
+      "stars": 5,
+      "when": "2 months ago",
+      "text": "Extremely professional company. Had them do a landscaping design and install for us & it came out great. We’re going to have them come back and do some tree removal for us too. Highly recommend",
+      "url": "https://share.google/GmbW3kIUh0mLmZF7J",
+      "featured": true,
+      "service": {"en": "Landscape design & installation", "es": "Diseño e instalación de paisajes"}
+    },
+    {
+      "reviewer": "Kathy P.",
+      "stars": 5,
+      "when": "2 months ago",
+      "text": "Brian and his team do incredible work. He does our business lawn and if it doesn’t need it, he tells me he pushes off to save money. On the flip side when the lawn needs to be cut he is there before I even need to ask him. I would recommend this service to anyone. He is thorough and cost effective and does beautiful work!!",
+      "excerpt": "…when the lawn needs to be cut he is there before I even need to ask him. I would recommend this service to anyone. He is thorough and cost effective and does beautiful work!!",
+      "featured": true,
+      "service": {"en": "Lawn care", "es": "Cuidado del césped"}
+    },
+    {
+      "reviewer": "Sarah T.",
+      "stars": 5,
+      "when": "2 weeks ago",
+      "text": "Bryan and his team are amazing! Everyone is extremely friendly and my yard looks perfect.. I was in a pinch and needed my lawn done before I went away for a work trip and Bryan had someone out asap. They went above and beyond. Will be using them for all of my Landscaping and treework needs, would give them six stars if I could!"
+    },
+    {
+      "reviewer": "Nancy",
+      "stars": 5,
+      "when": "2 weeks ago",
+      "text": "Bryan does meticulous work and always checks to make sure we are satisfied with his work. He has trimmed shrubbery, taken down dead dogwood trees, etc. and overall improved our properties appearance. Very knowledgeable with the health of trees. When we contact him he gets back to us promptly and is fair with his pricing. Would definitely recommend him for your landscaping needs."
+    },
+    {
+      "reviewer": "Sean D.",
+      "stars": 5,
+      "when": "a month ago",
+      "text": "Bryan responded very quickly to my request for some tree and yard work to be done. He came over and gave a very very fair estimate and I decided to move forward. I thought I had done an ok job cleaning up my flower beds and mulching. When I saw his work however, I knew I wouldn’t ever try again. I’ve been in my house for 9 years and the front years has never looked so good. Family members actually commented on it when they came over. Very prompt and a genuinely good guy. I would definitely recommend Wolf’s Landscaping Services!!"
+    },
+    {
+      "reviewer": "Cyndi R.",
+      "stars": 5,
+      "when": "a month ago",
+      "text": "Always does a great job!"
+    },
+    {
+      "reviewer": "Erin S.",
+      "stars": 5,
+      "when": "a month ago",
+      "text": "I highly recommend them for their excellent work! They did a fantastic job repairing my retaining wall and were professional, reliable, and easy to work with throughout the entire process. I especially appreciated that they followed up a few weeks later just to make sure I was happy with the service. That level of customer care really stood out. I’m very happy with the results and would definitely recommend them to anyone looking for quality work and great service!",
+      "excerpt": "They did a fantastic job repairing my retaining wall and were professional, reliable, and easy to work with throughout the entire process. I especially appreciated that they followed up a few weeks later just to make sure I was happy with the service.",
+      "featured": true,
+      "service": {"en": "Retaining wall repair", "es": "Reparación de muro de contención"}
+    },
+    {
+      "reviewer": "Forrest & Moore",
+      "stars": 5,
+      "when": "a month ago",
+      "text": "Great work! Dependable. Reasonably priced. Nice guy!"
+    },
+    {
+      "reviewer": "Caitlin M.",
+      "stars": 5,
+      "when": "a month ago",
+      "text": "Brian always does a great job! He’s always on time, kind and respectful and keeps the place looking great. He always helps us with extra little jobs we need done as well! Can’t recommend him enough"
+    },
+    {
+      "reviewer": "Roger M.",
+      "stars": 5,
+      "when": "a month ago",
+      "text": "Bryan always takes great care of me, and today in about 2 hours, turned the front of my house into a home. Amazing work, very fair prices, and really easy to work with."
+    },
+    {
+      "reviewer": "Tracy A.",
+      "stars": 5,
+      "when": "a month ago",
+      "text": "He does a great job, very professional, and very reasonably priced"
+    },
+    {
+      "reviewer": "N. N.",
+      "stars": 5,
+      "when": "a month ago",
+      "text": "Had them fix my driveway. Excellent work at a great price! I would definitely recommend him for his services!"
+    },
+    {
+      "reviewer": "Linda S.",
+      "stars": 5,
+      "when": "2 months ago",
+      "text": "Did a beautiful job on my garden, mulching, trimming and edging. I highly recommend. Good communication skills and also fixed my neighbor's retaining wall."
+    },
+    {
+      "reviewer": "Kate D.",
+      "stars": 5,
+      "when": "",
+      "text": ""
+    }
+  ]
+}

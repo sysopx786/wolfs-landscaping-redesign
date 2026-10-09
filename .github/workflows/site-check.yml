@@ -1,0 +1,31 @@
+name: Site check
+
+# Runs on every push (source checks) and every Monday morning (also crawls the live site).
+# If a check fails, GitHub emails the repository owner.
+on:
+  push:
+  schedule:
+    - cron: "17 11 * * 1"
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generated pages are up to date
+        run: |
+          python tools/build.py
+          git diff --exit-code -- . ':!sitemap.xml' || (echo "Generated files are out of date. Run: python tools/build.py and commit." && exit 1)
+
+      - name: Static audit (links, SEO tags, hreflang, structured data, EN/ES parity)
+        run: python tools/audit.py
+
+      - name: Live site crawl (weekly or manual only)
+        if: github.event_name != 'push'
+        run: python tools/crawl_live.py
