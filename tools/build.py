@@ -139,7 +139,7 @@ def header(lang, key):
 <header class="site-header">
   <div class="wrap bar">
     <a class="brand" href="index.html" aria-label="{e(SITE['name'])}">
-      <img class="brand-mark" src="{a}brand/logo-emblem-1x.png" srcset="{a}brand/logo-emblem-1x.png 1x, {a}brand/logo-emblem-2x.png 2x" alt="" width="62" height="58" decoding="async">
+      <img class="brand-mark" src="{a}brand/logo-emblem-1x.png" srcset="{a}brand/logo-emblem-1x.png 1x, {a}brand/logo-emblem-2x.png 2x" alt="" width="64" height="58" decoding="async">
       <span>Wolf's <em>Landscaping</em></span>
     </a>
     <nav id="nav" aria-label="Main">
@@ -520,15 +520,14 @@ def build_lang(lang):
                 f'<picture><source type="image/webp" srcset="{base}-320.webp 320w, {base}-640.webp 640w" sizes="{sizes}">'
                 f'<img src="{base}-640.jpg" alt="{e(alt)}" width="{w}" height="{h}"{ld} decoding="async"></picture>')
     roles = "".join(
-        f'<a class="join-card" href="{svc}.html">{jpic("join-" + img, alt, 685, 940, "(max-width: 640px) 44vw, 260px")}'
-        f'<span class="join-card-text"><strong>{e(name)}</strong> {e(txt)}</span></a>'
+        f'<a class="join-card" href="{svc}.html"><strong>{e(name)}</strong><span class="join-card-text">{e(txt)}</span></a>'
         for name, txt, svc, img, alt in P["join_roles"])
     look = "".join(f"<li>{e(x)}</li>" for x in P["join_look"])
     sms_body = urllib.parse.quote(P["join_sms_body"], safe="")
     intro = "".join(f"<p>{e(x)}</p>" for x in P["join_intro"])
     body = f"""{hero(lang, trail, P['join_h'], P['join_lead'], show_cta=False)}
 <section class="section"><div class="wrap two join-top">
-  <div class="join-poster">{jpic("join-poster", P["join_poster_alt"], 1496, 1735, "(max-width: 900px) 92vw, 480px", lazy=False)}</div>
+  <div class="join-poster">{jpic("join-poster", P["join_poster_alt"], 1493, 2000, "(max-width: 900px) 92vw, 480px", lazy=False)}</div>
   <div class="prose">{intro}
     <h2 class="h3">{e(P['join_look_h'])}</h2><ul class="checks">{look}</ul>
     <h2 class="h3">{e(P['join_apply_h'])}</h2><p>{e(P['join_apply_p'])}</p>

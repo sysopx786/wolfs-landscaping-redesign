@@ -462,3 +462,11 @@ h1,h2,h3{color:#0d0e0a}
   .page-hero.has-photo::before{background:linear-gradient(180deg,rgba(10,12,6,.4) 0%,rgba(14,18,8,.36) 100%)}
   .hero-home{background-image:linear-gradient(180deg,rgba(8,9,6,.48) 0%,rgba(8,9,6,.38) 45%,rgba(8,9,6,.46) 100%),url(photos/hero-800.webp)}
 }
+
+/* Join page: role cards are text links now (the poster shows the artwork) */
+.join-card{background:#fff;border:1px solid #d6d6c8;border-top:4px solid #4d5b26;border-radius:12px;padding:18px 18px 20px;gap:6px}
+.join-card strong{font-family:Fraunces,Georgia,serif;font-size:1.3rem;color:#0d0e0a}
+.join-card-text{color:#2b2d24}
+.join-card:hover{border-top-color:#0d0e0a}
+.join-card:hover strong{text-decoration:underline;text-underline-offset:3px}
+.join-poster img{background:#e9e5d8}
