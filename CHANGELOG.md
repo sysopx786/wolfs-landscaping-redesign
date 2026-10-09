@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026-10-09: Light services dropdown on desktop
+- The desktop Services dropdown matches the phone menu: off-white panel, black text, olive top edge, light olive hover. The header background is now solid so the logo emblem blends in on every screen size.
+
 ## 2026-10-09: Readable mobile menu
 - The phone menu opens as an off-white panel with black text, thin dividers, a tinted services list and an olive estimate button, instead of a black panel under the black header. The "Call Now" bar is hidden while the menu is open so it no longer covers the last items. The header no longer blurs its background, so the logo emblem blends in without a visible box.
 
