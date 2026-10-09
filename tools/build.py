@@ -219,11 +219,27 @@ def website_ld():
     return {"@type": "WebSite", "@id": f"{URL}/#website", "name": SITE["name"], "url": URL + "/", "inLanguage": ["en-US", "es-US"], "publisher": {"@id": f"{URL}/#business"}}
 
 
-def hero(lang, trail, h1, lead, show_cta=True):
+# photo behind each service page banner (gallery "after" images); every other page uses the sunrise photo
+SERVICE_PHOTO = {"lawn-care": "lawn", "sod-seeding": "sod", "hardscaping": "patio", "landscape-design": "bed",
+                 "retaining-walls": "wall", "drainage-grading": "stonewall", "seasonal-cleanup": "perennial"}
+
+
+def hero_photo(lang, key):
+    a = asset(lang)
+    if key:
+        base = f"{a}photos/{key}-after"
+        return (f'<picture class="hero-bg"><source type="image/webp" srcset="{base}-480.webp 480w, {base}-800.webp 800w, {base}-1168.webp 1168w" sizes="100vw">'
+                f'<img class="hero-bg-img" src="{base}-800.jpg" alt="" width="1168" height="880" fetchpriority="high" decoding="async"></picture>')
+    base = f"{a}photos/hero"
+    return (f'<picture class="hero-bg"><img class="hero-bg-img" src="{base}-1280.webp" srcset="{base}-800.webp 800w, {base}-1280.webp 1280w, {base}-1920.webp 1920w" sizes="100vw" '
+            f'alt="" width="1920" height="1085" fetchpriority="high" decoding="async"></picture>')
+
+
+def hero(lang, trail, h1, lead, show_cta=True, photo=None):
     ui = C.UI[lang]
     cta = f'<div class="cta-row"><a class="btn" href="contact.html#estimate">{e(ui["cta_btn"])}</a></div>' if show_cta else ""
     lead_html = f'<p class="lead">{e(lead)}</p>' if lead else ""
-    return f"""<section class="hero page-hero"><div class="wrap hero-inner">
+    return f"""<section class="hero page-hero has-photo">{hero_photo(lang, photo)}<div class="wrap hero-inner">
 {crumbs(lang, trail)}
 <h1>{e(h1)}</h1>
 {lead_html}
@@ -386,7 +402,7 @@ def build_lang(lang):
         if d.get("aftercare"):
             cards = "".join(f'<div class="card"><h3>{e(h)}</h3><p>{e(t)}</p></div>' for h, t in d["aftercare"])
             after = f'<section class="section"><div class="wrap"><div class="grid cards">{cards}</div></div></section>'
-        body = f"""{hero(lang, trail, d['name'], d['tag'])}
+        body = f"""{hero(lang, trail, d['name'], d['tag'], photo=SERVICE_PHOTO.get(key))}
 <section class="section"><div class="wrap two">
   <div class="prose">{''.join(f'<p>{e(p)}</p>' for p in d['intro'])}</div>
   <div class="callout"><h2 class="h3">{e(ui['included'])}</h2><ul class="checks">{inc}</ul></div>

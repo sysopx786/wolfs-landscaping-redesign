@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026-10-09: Photo banners on inner pages
+- Inner-page banners are about half as tall and have a photo behind the title under a light olive-tinted overlay. Service pages use their own gallery photo (lawn, sod, patio, garden bed, retaining wall, stone wall, perennial bed); every other page uses the sunrise photo from the home page.
+
 ## 2026-10-09: Repository cleanup
 - Removed unused files and internal notes; README, changelog and business record rewritten for public viewing.
 
