@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026-10-09: Lighter phone banners, readable breadcrumbs
+- Phone banner overlay lowered to about 36-40% (home banner 38-48%). Breadcrumbs are white and underlined on all screen sizes with a slightly darker strip across the top of each photo banner, and the home banner's small location label is lighter. Checked all 162 banner text regions on phones and desktop: lowest contrast 5.1:1 on phones, 5.5:1 on desktop, breadcrumbs at least 6.7:1.
+
 ## 2026-10-09: Phone banners show the photo
 - On phones the banner overlay is about 50% instead of 75-80%, text has a soft shadow and a soft dark band behind it, and each photo is cropped so its main subject sits in the lower or right part of the banner. Every text region still passes contrast (lowest 7.1:1 on phones).
 
