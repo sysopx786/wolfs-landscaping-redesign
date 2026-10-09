@@ -52,11 +52,12 @@ def images():
 # ---------- social preview (branded graphic, not an AI project image) ----------
 def og():
     W, H = 1200, 630
-    im = Image.new("RGB", (W, H), "#0d0e0a")
+    im = Image.new("RGB", (W, H), (0, 0, 0))
+    logo = Image.open(os.path.join(ROOT, "brand", "logo-wolfs.jpg")).convert("RGB")
+    w = 1120
+    logo = logo.resize((w, round(logo.height * w / logo.width)), Image.LANCZOS)
+    im.paste(logo, ((W - w) // 2, 70))
     d = ImageDraw.Draw(im)
-    for i in range(H):  # subtle vertical gradient, black to deep olive
-        t = i / H
-        d.line([(0, i), (W, i)], fill=(int(13 + t * 24), int(14 + t * 30), int(10 + t * 8)))
     def font(names, size):
         for n in names:
             try:
@@ -64,20 +65,10 @@ def og():
             except OSError:
                 pass
         return ImageFont.load_default()
-    serif = ["georgiab.ttf", "georgia.ttf", "times.ttf"]
-    sans = ["segoeui.ttf", "arial.ttf"]
-    k = 80 / 32
-    d.rounded_rectangle([80, 90, 160, 170], radius=18, fill="#4d5b26")
-    pts = lambda L: [(80 + x * k, 90 + y * k) for x, y in L]
-    d.polygon(pts([(5.5, 4.5), (12, 10.6), (14, 10.1), (18, 10.1), (20, 10.6), (26.5, 4.5), (27.4, 17.1), (22.8, 25.3), (16, 29.2), (9.2, 25.3), (4.6, 17.1)]), fill="#e2e3dd")
-    d.polygon(pts([(9.2, 16.2), (13.3, 17.5), (11.7, 19.8)]), fill="#0d0e0a")
-    d.polygon(pts([(22.8, 16.2), (18.7, 17.5), (20.3, 19.8)]), fill="#0d0e0a")
-    d.polygon(pts([(13.6, 23.4), (18.4, 23.4), (16, 26.3)]), fill="#0d0e0a")
-    d.text((80, 230), "Wolf's Landscaping Services", font=font(serif, 68), fill="#e2e3dd")
-    d.text((80, 340), "Lawn care, hardscaping, retaining walls", font=font(sans, 40), fill="#c4c6b8")
-    d.text((80, 400), "Royersford & Chester County, PA", font=font(sans, 40), fill="#a7b46a")
-    d.rounded_rectangle([80, 500, 470, 565], radius=32, fill="#4d5b26")
-    d.text((110, 513), "Free estimates", font=font(sans, 36), fill="#ffffff")
+    f = font(["segoeui.ttf", "arial.ttf"], 38)
+    t = "Royersford & Chester County, PA  |  Free estimates"
+    tw = d.textlength(t, font=f)
+    d.text(((W - tw) / 2, 90 + logo.height + 20), t, font=f, fill="#a7b46a")
     im.save(os.path.join(ROOT, "og-image.jpg"), "JPEG", quality=86, optimize=True)
     print("og-image.jpg", os.path.getsize(os.path.join(ROOT, "og-image.jpg")) // 1024, "KB")
 

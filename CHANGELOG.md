@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026-10-09: Real logo
+- The supplied Wolf's Landscaping Services logo replaces the drawn wolf mark: the round emblem sits next to the name in the header, the full logo is at the top of the footer, the wolf head is the tab and touch icon, and the social preview image is the logo on black. Original file kept at brand/logo-wolfs.jpg.
+
 ## 2026-10-09: Black, olive and off-white redesign, wolf mark
 - Colors taken from the Join the Pack poster: black (#0d0e0a), olive (#4d5b26), off-white (#e2e3dd), with a lighter olive (#a7b46a) for small text on dark. Dark header, hero and footer; olive buttons and links; off-white page tints. Contrast table in tools/prep_assets.py: all pairs pass WCAG AA.
 - New simple wolf-head mark (brand/wolf-mark.svg) in the header, as the tab icon (SVG) and as the touch icon (brand/apple-touch-icon.png). Social preview image redrawn with the new colors and mark.

@@ -95,7 +95,7 @@ def main():
             except Exception as ex: add(f"{f}: invalid form-i18n {ex}")
         for im in p.imgs:
             if "alt" not in im: add(f"{f}: image without alt attribute {im.get('src')}")
-            if im.get("alt") == "" and "google-g.png" not in (im.get("src") or ""): add(f"{f}: empty alt on a non-decorative image {im.get('src')}")
+            if im.get("alt") == "" and not any(x in (im.get("src") or "") for x in ("google-g.png", "logo-emblem")): add(f"{f}: empty alt on a non-decorative image {im.get('src')}")
             if not (im.get("width") and im.get("height")): add(f"{f}: image without width/height {im.get('src')}")
         for l in p.links:
             if l.startswith("mailto:") or "@" in l: add(f"{f}: email link {l}")

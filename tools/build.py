@@ -114,7 +114,8 @@ def head(lang, key, title, desc, schema=None):
 <meta name="twitter:title" content="{e(full_title)}">
 <meta name="twitter:description" content="{e(desc)}">
 <meta name="twitter:image" content="{URL}/og-image.jpg">
-<link rel="icon" type="image/svg+xml" href="{a}brand/wolf-mark.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="{a}brand/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="{a}brand/icon-192.png">
 <link rel="apple-touch-icon" href="{a}brand/apple-touch-icon.png">
 <link rel="preload" href="{a}fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="{a}fonts/fraunces-latin.woff2" as="font" type="font/woff2" crossorigin>
@@ -134,7 +135,7 @@ def header(lang, key):
 <header class="site-header">
   <div class="wrap bar">
     <a class="brand" href="index.html" aria-label="{e(SITE['name'])}">
-      <svg viewBox="0 0 32 32" width="36" height="36" aria-hidden="true" focusable="false"><rect width="32" height="32" rx="7" fill="#4d5b26"/><path d="M5.5 4.5 12 10.6c1.3-.5 2.6-.7 4-.7s2.7.2 4 .7l6.5-6.1.9 12.6-4.6 8.2L16 29.2l-6.8-3.9-4.6-8.2z" fill="#e2e3dd"/><path d="M9.2 16.2l4.1 1.3-1.6 2.3zM22.8 16.2l-4.1 1.3 1.6 2.3z" fill="#0d0e0a"/><path d="M13.6 23.4h4.8L16 26.3z" fill="#0d0e0a"/><path d="M16 17.8v5" stroke="#0d0e0a" stroke-width="1.1" stroke-linecap="round" opacity=".55"/></svg>
+      <img class="brand-mark" src="{a}brand/logo-emblem-1x.png" srcset="{a}brand/logo-emblem-1x.png 1x, {a}brand/logo-emblem-2x.png 2x" alt="" width="62" height="58" decoding="async">
       <span>Wolf's <em>Landscaping</em></span>
     </a>
     <nav id="nav" aria-label="Main">
@@ -165,6 +166,7 @@ def footer(lang):
     a = asset(lang)
     other_home = ("../" if lang == "es" else "es/") + "index.html"
     return f"""<footer class="site-footer">
+  <div class="wrap foot-logo"><a href="index.html" aria-label="{e(SITE['name'])}"><picture><source type="image/webp" srcset="{a}brand/logo-640.webp 640w, {a}brand/logo-1024.webp 1024w" sizes="(max-width: 700px) 80vw, 340px"><img src="{a}brand/logo-640.jpg" alt="{e(SITE['name'])}" width="1024" height="434" loading="lazy" decoding="async"></picture></a></div>
   <div class="wrap foot">
     <div><strong>{e(SITE['name'])}</strong><br>{e(ui['footer_area'])}</div>
     <div><address>{addr_html()}<br><a href="{SITE['maps_url']}" target="_blank" rel="noopener">{e(C.PAGES[lang]['view_map'])}</a></address></div>

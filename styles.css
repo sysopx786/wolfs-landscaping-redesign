@@ -368,3 +368,10 @@ h1,h2,h3{color:#0d0e0a}
 .hero h1,.hero h2,.cta-band h2,.page-hero h1{color:#fff}
 .btn-ghost.dark{color:#0d0e0a;border-color:var(--green)}
 .btn-ghost.dark:hover{background:var(--sage)}
+
+/* real logo: black artwork blends into the dark header and footer */
+.brand-mark{height:58px;width:auto;mix-blend-mode:lighten;flex:none}
+.foot-logo{padding-bottom:18px}
+.foot-logo a{display:inline-block;padding:0}
+.foot-logo img{width:min(340px,80vw);height:auto;mix-blend-mode:lighten}
+@media (max-width:640px){.brand-mark{height:50px}}
