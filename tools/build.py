@@ -239,7 +239,7 @@ def hero(lang, trail, h1, lead, show_cta=True, photo=None):
     ui = C.UI[lang]
     cta = f'<div class="cta-row"><a class="btn" href="contact.html#estimate">{e(ui["cta_btn"])}</a></div>' if show_cta else ""
     lead_html = f'<p class="lead">{e(lead)}</p>' if lead else ""
-    return f"""<section class="hero page-hero has-photo">{hero_photo(lang, photo)}<div class="wrap hero-inner">
+    return f"""<section class="hero page-hero has-photo" data-photo="{photo or 'sunrise'}">{hero_photo(lang, photo)}<div class="wrap hero-inner">
 {crumbs(lang, trail)}
 <h1>{e(h1)}</h1>
 {lead_html}

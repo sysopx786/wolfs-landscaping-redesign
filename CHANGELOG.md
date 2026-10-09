@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026-10-09: Phone banners show the photo
+- On phones the banner overlay is about 50% instead of 75-80%, text has a soft shadow and a soft dark band behind it, and each photo is cropped so its main subject sits in the lower or right part of the banner. Every text region still passes contrast (lowest 7.1:1 on phones).
+
 ## 2026-10-09: Photo banners on inner pages
 - Inner-page banners are about half as tall and have a photo behind the title under a light olive-tinted overlay. Service pages use their own gallery photo (lawn, sod, patio, garden bed, retaining wall, stone wall, perennial bed); every other page uses the sunrise photo from the home page.
 
