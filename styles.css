@@ -410,3 +410,12 @@ h1,h2,h3{color:#0d0e0a}
 .prose a.btn-ghost.dark:hover,.quote-copy a.btn-ghost.dark:hover,.more a.btn-ghost.dark:hover,.callout a.btn-ghost.dark:hover{color:#0d0e0a}
 .site-header .btn,.site-header .btn:hover{color:#0d0e0a}
 @media (max-width:1240px){.site-header nav .btn,.site-header nav .btn:hover{color:#fff}}
+
+/* Home hero: landscape photo behind the headline, dark overlay keeps the text readable */
+.hero-home{
+  background-color:#0d0e0a;
+  background-image:linear-gradient(90deg,rgba(8,9,6,.9) 0%,rgba(8,9,6,.8) 38%,rgba(8,9,6,.4) 100%),linear-gradient(0deg,rgba(8,9,6,.6) 0%,rgba(8,9,6,0) 35%),url(photos/hero-1920.webp);
+  background-size:cover;background-position:center 60%;
+}
+@media (max-width:1400px){.hero-home{background-image:linear-gradient(90deg,rgba(8,9,6,.9) 0%,rgba(8,9,6,.8) 38%,rgba(8,9,6,.4) 100%),linear-gradient(0deg,rgba(8,9,6,.6) 0%,rgba(8,9,6,0) 35%),url(photos/hero-1280.webp)}}
+@media (max-width:700px){.hero-home{background-image:linear-gradient(180deg,rgba(8,9,6,.82) 0%,rgba(8,9,6,.78) 60%,rgba(8,9,6,.9) 100%),url(photos/hero-800.webp);background-position:60% center}}

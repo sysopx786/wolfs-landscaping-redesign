@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026-10-09: Home hero photo
+- The home page banner now has a landscape photo (sunrise over a freshly landscaped front yard) behind the headline, under a dark overlay so the text stays readable. Three sizes (800, 1280, 1920 px) load by screen width and are preloaded for speed. Inner pages keep the plain dark banner.
+
 ## 2026-10-09: Readable button text everywhere
 - Buttons inside text blocks (Contact: Get directions; Join the team: Text us) inherited the olive link color and showed olive text on an olive button. Buttons now keep white text (or black on ghost buttons) in every place. Checked 356 buttons on all 32 pages at desktop and phone widths: every one now has at least 4.5:1 contrast.
 

@@ -84,6 +84,10 @@ def head(lang, key, title, desc, schema=None):
     ui = C.UI[lang]
     a = asset(lang)
     full_title = f"{title} | {SITE['name']}"
+    hero_preload = "".join(
+        f'<link rel="preload" as="image" href="{a}photos/hero-{w}.webp" media="({m})">\n'
+        for w, m in (("800", "max-width: 700px"), ("1280", "min-width: 701px) and (max-width: 1400px"), ("1920", "min-width: 1401px"))
+    ) if key == "index" else ""
     alts = "\n".join(
         f'<link rel="alternate" hreflang="{l}" href="{pub_url(l, key)}">' for l in LANGS
     ) + f'\n<link rel="alternate" hreflang="x-default" href="{pub_url("en", key)}">'
@@ -119,7 +123,7 @@ def head(lang, key, title, desc, schema=None):
 <link rel="apple-touch-icon" href="{a}brand/apple-touch-icon.png">
 <link rel="preload" href="{a}fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="{a}fonts/fraunces-latin.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="{a}styles.css?v={VER['css']}">
+{hero_preload}<link rel="stylesheet" href="{a}styles.css?v={VER['css']}">
 {ld}
 </head>"""
 
@@ -318,7 +322,7 @@ def build_lang(lang):
     why = "".join(f"<li>{e(w)}</li>" for w in P["why"])
     SHOT = {s["key"]: s for s in C.SHOTS}
     home_shots = "".join(slider(lang, SHOT[k]) for k in ("patio", "lighting", "lawn", "walkway"))
-    home = f"""<section class="hero">
+    home = f"""<section class="hero hero-home">
   <div class="wrap hero-inner">
     <p class="eyebrow">{e(P['eyebrow'])}</p>
     <h1>{e(P['h1'])}</h1>
