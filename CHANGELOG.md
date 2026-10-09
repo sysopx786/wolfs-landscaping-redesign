@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026-10-09: Redesign copy has its own address
+- This repo is a copy of the live site, kept for the redesign. Site address, canonical links, sitemap, hreflang and README now use https://sysopx786.github.io/wolfs-landscaping-redesign/. Pages are indexable (no noindex).
+
 ## 2026-10-09: Join the team in the menu
 - "Join the team" (Spanish: "Únase al equipo") added to the main menu, between Contact and Free Estimate, on every page. Checked at the narrowest desktop width in both languages: fits on one line.
 

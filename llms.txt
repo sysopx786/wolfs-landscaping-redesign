@@ -3,18 +3,18 @@
 > Owner-operated landscaping company serving Royersford and Chester County, Pennsylvania. Lawn care, landscape design, hardscaping, retaining walls, drainage and grading, aeration, sod and seeding, seasonal cleanup, tree work and snow removal. Free estimates. Phone: 610-357-1098.
 
 ## Pages
-- [Lawn Care & Maintenance](https://sysopx786.github.io/wolfs-landscaping-WEBSITE/lawn-care.html): Lawn mowing service, trimming and groundskeeping in Royersford and Chester County. A professional, friendly crew and fair pricing.
-- [Landscape Design & Installation](https://sysopx786.github.io/wolfs-landscaping-WEBSITE/landscape-design.html): Garden design, new beds, mulch and plantings in Royersford and Chester County. Owner-operated and easy to work with.
-- [Hardscaping](https://sysopx786.github.io/wolfs-landscaping-WEBSITE/hardscaping.html): Walkway and driveway paving, outdoor steps, and stone and rock landscaping in Royersford and Chester County.
-- [Retaining Walls](https://sysopx786.github.io/wolfs-landscaping-WEBSITE/retaining-walls.html): Retaining wall construction in Royersford and Chester County. Level your yard, control slopes and add lasting structure.
-- [Drainage & Grading](https://sysopx786.github.io/wolfs-landscaping-WEBSITE/drainage-grading.html): Fix yard drainage problems, standing water and soggy spots with grading and resloping in Royersford and Chester County.
-- [Aeration, Sod & Seeding](https://sysopx786.github.io/wolfs-landscaping-WEBSITE/sod-seeding.html): Core aeration, overseeding, sod installation and grass seeding in Royersford and Chester County. Fix a thin lawn or start a new one.
-- [Seasonal Cleanup](https://sysopx786.github.io/wolfs-landscaping-WEBSITE/seasonal-cleanup.html): Spring and fall yard cleanup and leaf collection in Royersford and Chester County. We haul it away.
-- [Tree Work & Snow Removal](https://sysopx786.github.io/wolfs-landscaping-WEBSITE/tree-snow.html): Tree work and snow removal in Royersford and Chester County. Local, owner-operated and responsive.
-- [About](https://sysopx786.github.io/wolfs-landscaping-WEBSITE/about.html)
-- [Customer reviews](https://sysopx786.github.io/wolfs-landscaping-WEBSITE/reviews.html): reviews from the Google listing
-- [FAQ](https://sysopx786.github.io/wolfs-landscaping-WEBSITE/faq.html)
-- [Contact and free estimate](https://sysopx786.github.io/wolfs-landscaping-WEBSITE/contact.html)
-- [Join the team](https://sysopx786.github.io/wolfs-landscaping-WEBSITE/join-the-team.html): work with the crew
-- [Gallery](https://sysopx786.github.io/wolfs-landscaping-WEBSITE/gallery.html): before and after comparisons for retaining walls, walkways, patios, driveways, garden beds and lawns
-- [Español](https://sysopx786.github.io/wolfs-landscaping-WEBSITE/es/index.html): Spanish version of this site
+- [Lawn Care & Maintenance](https://sysopx786.github.io/wolfs-landscaping-redesign/lawn-care.html): Lawn mowing service, trimming and groundskeeping in Royersford and Chester County. A professional, friendly crew and fair pricing.
+- [Landscape Design & Installation](https://sysopx786.github.io/wolfs-landscaping-redesign/landscape-design.html): Garden design, new beds, mulch and plantings in Royersford and Chester County. Owner-operated and easy to work with.
+- [Hardscaping](https://sysopx786.github.io/wolfs-landscaping-redesign/hardscaping.html): Walkway and driveway paving, outdoor steps, and stone and rock landscaping in Royersford and Chester County.
+- [Retaining Walls](https://sysopx786.github.io/wolfs-landscaping-redesign/retaining-walls.html): Retaining wall construction in Royersford and Chester County. Level your yard, control slopes and add lasting structure.
+- [Drainage & Grading](https://sysopx786.github.io/wolfs-landscaping-redesign/drainage-grading.html): Fix yard drainage problems, standing water and soggy spots with grading and resloping in Royersford and Chester County.
+- [Aeration, Sod & Seeding](https://sysopx786.github.io/wolfs-landscaping-redesign/sod-seeding.html): Core aeration, overseeding, sod installation and grass seeding in Royersford and Chester County. Fix a thin lawn or start a new one.
+- [Seasonal Cleanup](https://sysopx786.github.io/wolfs-landscaping-redesign/seasonal-cleanup.html): Spring and fall yard cleanup and leaf collection in Royersford and Chester County. We haul it away.
+- [Tree Work & Snow Removal](https://sysopx786.github.io/wolfs-landscaping-redesign/tree-snow.html): Tree work and snow removal in Royersford and Chester County. Local, owner-operated and responsive.
+- [About](https://sysopx786.github.io/wolfs-landscaping-redesign/about.html)
+- [Customer reviews](https://sysopx786.github.io/wolfs-landscaping-redesign/reviews.html): reviews from the Google listing
+- [FAQ](https://sysopx786.github.io/wolfs-landscaping-redesign/faq.html)
+- [Contact and free estimate](https://sysopx786.github.io/wolfs-landscaping-redesign/contact.html)
+- [Join the team](https://sysopx786.github.io/wolfs-landscaping-redesign/join-the-team.html): work with the crew
+- [Gallery](https://sysopx786.github.io/wolfs-landscaping-redesign/gallery.html): before and after comparisons for retaining walls, walkways, patios, driveways, garden beds and lawns
+- [Español](https://sysopx786.github.io/wolfs-landscaping-redesign/es/index.html): Spanish version of this site

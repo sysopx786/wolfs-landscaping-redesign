@@ -17,4 +17,4 @@ Allow: /
 User-agent: Google-Extended
 Allow: /
 
-Sitemap: https://sysopx786.github.io/wolfs-landscaping-WEBSITE/sitemap.xml
+Sitemap: https://sysopx786.github.io/wolfs-landscaping-redesign/sitemap.xml

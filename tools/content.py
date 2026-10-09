@@ -4,7 +4,7 @@ Spanish text is machine-assisted and should be reviewed by a native speaker befo
 """
 
 SITE = dict(
-    url="https://sysopx786.github.io/wolfs-landscaping-WEBSITE",
+    url="https://sysopx786.github.io/wolfs-landscaping-redesign",
     name="Wolf's Landscaping Services",
     phone_display="610-357-1098",
     phone_tel="+16103571098",

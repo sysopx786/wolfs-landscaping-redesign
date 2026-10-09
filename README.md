@@ -4,9 +4,9 @@ Owner-operated landscaping based in Royersford, PA, serving Chester County and t
 
 | | |
 |---|---|
-| Live website | https://sysopx786.github.io/wolfs-landscaping-WEBSITE/ |
-| Spanish version | https://sysopx786.github.io/wolfs-landscaping-WEBSITE/es/index.html |
-| Source code (GitHub) | https://github.com/sysopx786/wolfs-landscaping-WEBSITE |
+| Live website | https://sysopx786.github.io/wolfs-landscaping-redesign/ |
+| Spanish version | https://sysopx786.github.io/wolfs-landscaping-redesign/es/index.html |
+| Source code (GitHub) | https://github.com/sysopx786/wolfs-landscaping-redesign |
 
 ## What's in the site
 14 pages in each language: home, 8 service pages, about, gallery (before/after sliders), FAQ, contact, privacy. Plus `404.html`, `sitemap.xml`, `robots.txt`, `llms.txt`.
