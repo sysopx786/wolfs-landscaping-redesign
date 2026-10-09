@@ -1,9 +1,7 @@
 .DS_Store
 Thumbs.db
 *.log
+__pycache__/
+*.pyc
 raw/
-HANDOVER-PRIVATE.md
-research-*.md
-MWDS-GAP-REPORT.md
 tests/
-tests$n.png

@@ -150,7 +150,6 @@ def main():
         dirs[:] = [x for x in dirs if x not in {".git", "node_modules", "photos", "fonts"} and not x.startswith("~")]
         for fn in files:
             if fn.endswith((".html", ".js", ".css", ".xml", ".txt", ".md", ".json", ".py", ".yml")):
-                if fn in ("HANDOVER-PRIVATE.md", "MWDS-GAP-REPORT.md"): continue
                 t = open(os.path.join(d, fn), encoding="utf-8", errors="ignore").read()
                 if re.search(r"[A-Za-z0-9._%+-]+@(gmail|yahoo|outlook|hotmail)\.com", t):
                     add(f"{os.path.relpath(os.path.join(d, fn), ROOT)}: contains a personal email address")

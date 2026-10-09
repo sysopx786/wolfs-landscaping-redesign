@@ -1,105 +1,55 @@
 {
-  "_note": "Central record of business facts and brand settings. 'confirmed' = given by the owner. 'unverified' = needs owner confirmation. Public-safe: contains no personal email.",
+  "_note": "Reference record of public business facts and brand settings.",
   "name": "Wolf's Landscaping Services",
-  "legal_name": {
-    "value": null,
-    "status": "unverified",
-    "note": "Google also shows 'Wolf Lawn Care LLC'. Confirm whether this is the same business."
+  "owner": {
+    "name": "Bryan J. Wolf",
+    "role": "Owner"
   },
   "phone": {
     "value": "610-357-1098",
-    "status": "confirmed",
     "tel": "+16103571098"
   },
   "contact_method": "Estimate requests are sent by text message to the business phone. No email address is published.",
-  "email": {
-    "value": null,
-    "status": "unverified",
-    "note": "Owner has not supplied a business email."
-  },
   "address": {
-    "value": null,
-    "status": "unverified"
+    "street": "429 Main St",
+    "city": "Royersford",
+    "state": "PA",
+    "zip": "19468"
   },
-  "hours": {
-    "value": null,
-    "status": "unverified"
-  },
-  "license_insurance": {
-    "value": null,
-    "status": "unverified"
-  },
-  "years_in_business": {
-    "value": null,
-    "status": "unverified"
-  },
-  "owner_operated": {
-    "value": true,
-    "status": "confirmed"
-  },
-  "service_area": {
-    "confirmed": [
-      "Royersford, PA (business location)",
-      "Chester County"
-    ],
-    "unverified_towns": [
-      "Spring City",
-      "Oaks",
-      "Collegeville",
-      "Kimberton",
-      "Chester Springs",
-      "Malvern",
-      "Exton",
-      "Downingtown",
-      "West Chester",
-      "Valley Forge"
-    ]
-  },
-  "services": {
-    "status": "confirmed",
-    "list": [
-      "Lawn care & maintenance",
-      "Landscape design & installation",
-      "Hardscaping",
-      "Retaining walls",
-      "Drainage & grading",
-      "Sod & seeding",
-      "Seasonal cleanup",
-      "Tree work",
-      "Snow removal"
-    ]
-  },
-  "reviews": {
-    "google_rating": {
-      "value": 5.0,
-      "count": 14,
-      "status": "read from the live Google listing (Wolf’s Landscaping Services) on 2026-10-05"
-    },
-    "note": "Quotes on the site are three real reviews from that listing, shown without reviewer names (the listing page did not show names). A different profile, 'Wolf Lawn Care LLC' (4.7, 15 reviews, owner Colin), is a different business and is NOT used. Do not add review stars to structured data without checking Google's rules."
-  },
-  "social_accounts": {
-    "facebook": null,
-    "instagram": null,
-    "tiktok": null,
-    "youtube": null,
-    "yelp": null,
-    "status": "unverified"
-  },
+  "service_area": [
+    "Royersford, PA (business location)",
+    "Chester County"
+  ],
+  "services": [
+    "Lawn care & maintenance",
+    "Landscape design & installation",
+    "Hardscaping",
+    "Retaining walls",
+    "Drainage & grading",
+    "Aeration, sod & seeding",
+    "Seasonal cleanup",
+    "Tree work",
+    "Snow removal"
+  ],
   "languages": [
     "en",
     "es"
   ],
+  "google_business_profile": {
+    "url": "https://www.google.com/maps?cid=2486202383414944340",
+    "place_id": "ChIJ0VPVILEDmSgRVGItL-XDgCI",
+    "write_review_url": "https://search.google.com/local/writereview?placeid=ChIJ0VPVILEDmSgRVGItL-XDgCI",
+    "rating": 5.0,
+    "review_count": 14
+  },
   "brand": {
-    "logo": "text wordmark (no logo file supplied)",
     "colors": {
-      "green": "#2f5d3a",
-      "green_dark": "#1f3f28",
-      "sage": "#e7ede2",
-      "sand": "#f4efe4",
-      "accent": "#a8651a",
-      "accent_dark": "#8f5513",
-      "ink": "#1d241e"
+      "black": "#0d0e0a",
+      "olive": "#4d5b26",
+      "off_white": "#e2e3dd",
+      "olive_light": "#a7b46a"
     },
+    "logo": "brand/logo-wolfs.jpg (emblem and full logo in brand/)",
     "fonts": {
       "headings": "Fraunces (self-hosted)",
       "body": "Inter (self-hosted)"
@@ -109,34 +59,5 @@
     "public_url": "https://sysopx786.github.io/wolfs-landscaping-redesign/",
     "repo": "https://github.com/sysopx786/wolfs-landscaping-redesign",
     "hosting": "GitHub Pages (main branch, root)"
-  },
-  "images": {
-    "gallery": "8 AI-generated before/after concept pairs (Higgsfield GPT Image 2.5, text prompts only), labelled as concepts. Replace with real project photos when available."
-  },
-  "google_business_profile": {
-    "url": "https://www.google.com/maps?cid=2486202383414944340",
-    "name_on_google": "Wolf’s Landscaping Services",
-    "status": "confirmed by owner (link supplied 2026-10-05)",
-    "seen_on_listing": {
-      "rating": 5.0,
-      "review_count": 14,
-      "hours": "Mon-Sun 5 AM-7 PM",
-      "website_listed": "facebook.com",
-      "note": "Read from the public listing on 2026-10-05. Hours and Facebook page not yet confirmed or used on the site."
-    },
-    "place_id": "ChIJ0VPVILEDmSgRVGItL-XDgCI",
-    "write_review_url": "https://search.google.com/local/writereview?placeid=ChIJ0VPVILEDmSgRVGItL-XDgCI",
-    "note_place_id": "Place ID derived from the listing's feature ID (0x289903b120d553d1:0x2280c3e52f2d6254) and confirmed to open Wolf’s Landscaping Services on desktop and phone. Visitors who are not signed in to Google are asked to sign in first, then see the review box."
-  },
-  "location": {
-    "city": "Royersford, PA",
-    "street_address": "429 Main St, Royersford, PA 19468",
-    "status": "principal office address given by owner 2026-10-05",
-    "google_maps_url": "https://www.google.com/maps?cid=2486202383414944340"
-  },
-  "owner": {
-    "name": "Bryan J. Wolf",
-    "role": "Owner",
-    "status": "given by owner 2026-10-05"
   }
 }

@@ -29,7 +29,6 @@ def fonts():
         rng = re.search(r"unicode-range: ([^;]+);", face).group(1)
         out.append(f"@font-face{{font-family:'{fam}';font-style:normal;font-weight:{weight};font-display:swap;src:url(fonts/{fn}) format('woff2');unicode-range:{rng}}}")
     css_out = "\n".join(out) + "\n"
-    open(os.path.join(ROOT, "fonts", "fonts.css"), "w").write(css_out)
     print("fonts:", os.listdir(os.path.join(ROOT, "fonts")))
 
 
