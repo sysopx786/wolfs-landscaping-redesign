@@ -375,3 +375,20 @@ h1,h2,h3{color:#0d0e0a}
 .foot-logo a{display:inline-block;padding:0}
 .foot-logo img{width:min(340px,80vw);height:auto;mix-blend-mode:lighten}
 @media (max-width:640px){.brand-mark{height:50px}}
+
+/* Mobile menu: light panel with dark text so it reads clearly under the black header */
+@media (max-width:1240px){
+  .site-header{backdrop-filter:none;-webkit-backdrop-filter:none;background:#0d0e0a}
+  nav{background:#efede4;border-bottom:4px solid #4d5b26;box-shadow:0 18px 30px rgba(0,0,0,.35)}
+  nav a:not(.btn){color:#14150f;border-bottom:1px solid #d6d6c8}
+  nav a:not(.btn):hover{color:#4d5b26}
+  nav a[aria-current="page"]{color:#4d5b26;font-weight:600;text-decoration:none}
+  .dd-list{background:#e4e6d8;border-radius:10px;padding:2px 14px;margin:0 0 6px}
+  .dd-list a{color:#2b2d24;border-bottom:1px solid #d0d3c0}
+  .dd-list li:last-child a{border-bottom:0}
+  .site-header nav .btn{background:#4d5b26;color:#fff}
+  .site-header nav .btn:hover{background:#3a4420}
+  nav .lang{color:#14150f;border-color:#4d5b26}
+  .dd-list a{border-radius:0}
+  body:has(nav.open) .site-footer a.sticky-call{display:none}
+}

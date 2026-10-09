@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026-10-09: Readable mobile menu
+- The phone menu opens as an off-white panel with black text, thin dividers, a tinted services list and an olive estimate button, instead of a black panel under the black header. The "Call Now" bar is hidden while the menu is open so it no longer covers the last items. The header no longer blurs its background, so the logo emblem blends in without a visible box.
+
 ## 2026-10-09: Real logo
 - The supplied Wolf's Landscaping Services logo replaces the drawn wolf mark: the round emblem sits next to the name in the header, the full logo is at the top of the footer, the wolf head is the tab and touch icon, and the social preview image is the logo on black. Original file kept at brand/logo-wolfs.jpg.
 
