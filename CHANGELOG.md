@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026-10-09: Readable button text everywhere
+- Buttons inside text blocks (Contact: Get directions; Join the team: Text us) inherited the olive link color and showed olive text on an olive button. Buttons now keep white text (or black on ghost buttons) in every place. Checked 356 buttons on all 32 pages at desktop and phone widths: every one now has at least 4.5:1 contrast.
+
 ## 2026-10-09: Light services dropdown on desktop
 - The desktop Services dropdown matches the phone menu: off-white panel, black text, olive top edge, light olive hover. The header background is now solid so the logo emblem blends in on every screen size.
 

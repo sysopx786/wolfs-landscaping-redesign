@@ -402,3 +402,11 @@ h1,h2,h3{color:#0d0e0a}
 }
 
 .site-header{background:#0d0e0a}
+
+/* Buttons keep their own text color even inside text blocks (links there are olive and underlined) */
+.prose a.btn,.quote-copy a.btn,.faq a.btn,.more a.btn,.notice a.btn,.faq-foot a.btn,.callout a.btn{color:#fff;text-decoration:none}
+.prose a.btn-ghost.dark,.quote-copy a.btn-ghost.dark,.faq a.btn-ghost.dark,.more a.btn-ghost.dark,.notice a.btn-ghost.dark,.callout a.btn-ghost.dark{color:#0d0e0a}
+.prose a.btn:hover,.quote-copy a.btn:hover,.more a.btn:hover,.callout a.btn:hover{color:#fff}
+.prose a.btn-ghost.dark:hover,.quote-copy a.btn-ghost.dark:hover,.more a.btn-ghost.dark:hover,.callout a.btn-ghost.dark:hover{color:#0d0e0a}
+.site-header .btn,.site-header .btn:hover{color:#0d0e0a}
+@media (max-width:1240px){.site-header nav .btn,.site-header nav .btn:hover{color:#fff}}
