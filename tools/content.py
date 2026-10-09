@@ -44,7 +44,7 @@ UI = {
     gallery_cta="Want something like this?", see_more_ba="See more before & afters",
     google_label="Reviews from Google", rating_sr="Rated 5.0 out of 5 stars on Google", google_btn="Read all reviews on Google", write_btn="Leave a review on Google", see_all="See all reviews", anon_reviewer="Google review", view_on_google="View on Google",
     reviews_orig="",
-    sticky_call="Call Now", join_link="Join the team",
+    join_link="Join the team",
  ),
  "es": dict(
     lang_name="Español", switch_label="English", switch_short="EN", switch_title="View this site in English",
@@ -60,7 +60,7 @@ UI = {
     gallery_cta="¿Quiere algo así?", see_more_ba="Ver más antes y después",
     google_label="Reseñas de Google", rating_sr="Calificación de 5.0 sobre 5 estrellas en Google", google_btn="Leer todas las reseñas en Google", write_btn="Dejar una reseña en Google", see_all="Ver todas las reseñas", anon_reviewer="Reseña de Google", view_on_google="Ver en Google",
     reviews_orig="Reseñas originales en inglés, tal como las escribieron nuestros clientes.",
-    sticky_call="Llamar ahora", join_link="Únase al equipo",
+    join_link="Únase al equipo",
  ),
 }
 

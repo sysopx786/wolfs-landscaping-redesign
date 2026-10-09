@@ -177,7 +177,6 @@ def footer(lang):
     <div><a href="tel:{SITE['phone_tel']}">{SITE['phone_display']}</a></div>
     <div><a href="privacy.html">{e(ui['privacy'])}</a> &middot; <a href="join-the-team.html">{e(ui['join_link'])}</a> &middot; <a href="{other_home}" hreflang="{other(lang)}" lang="{other(lang)}">{e(ui['switch_label'])}</a> &middot; &copy; <span id="year"></span> {e(SITE['name'])}</div>
   </div>
-  <a class="sticky-call" href="tel:{SITE['phone_tel']}">{e(ui['sticky_call'])}</a>
   <button class="to-top" type="button" aria-label="{e(ui['back_top'])}" hidden>&uarr;</button>
 </footer>
 <script src="{a}script.js?v={VER['js']}"></script>

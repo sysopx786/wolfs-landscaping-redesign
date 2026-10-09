@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026-10-09: Call Now bar removed on phones
+- The sticky "Call Now" bar at the bottom of phone screens is removed (markup, styles and text). The back-to-top arrow stays. Phone numbers remain as links in the header menu, home banner, Contact page, Join page and footer.
+
 ## 2026-10-09: Lighter phone banners, readable breadcrumbs
 - Phone banner overlay lowered to about 36-40% (home banner 38-48%). Breadcrumbs are white and underlined on all screen sizes with a slightly darker strip across the top of each photo banner, and the home banner's small location label is lighter. Checked all 162 banner text regions on phones and desktop: lowest contrast 5.1:1 on phones, 5.5:1 on desktop, breadcrumbs at least 6.7:1.
 
